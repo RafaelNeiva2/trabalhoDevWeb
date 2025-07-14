@@ -19,7 +19,7 @@ function AthletesList() {
     <div className="container my-5">
       <h2 className="text-center mb-4">Atletas Inscritos</h2>
 
-      {/* Campo de Pesquisa */}
+      
       <div className="row mb-3">
         <div className="col-md-6 offset-md-3">
           <input
@@ -32,7 +32,7 @@ function AthletesList() {
         </div>
       </div>
 
-      {/* Lista de Atletas */}
+      
       <div className="row">
         <div className="col-md-8 offset-md-2">
           <ul className="list-group">

@@ -10,6 +10,7 @@ import ContatoPage from './pages/ContatoPage';
 
 
 import Footer from './components/Footer';
+import LojaPage from './pages/LojaPage';
 
 function App() {
   
@@ -27,6 +28,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
         
           <Route path="/inscricoes" element={<InscricoesPage />} />
+
+          <Route path="/loja" element={<LojaPage />} />
 
           <Route path="/percurso" element={<PercursoPage />} />
 
