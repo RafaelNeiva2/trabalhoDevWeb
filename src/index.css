@@ -1,5 +1,3 @@
-/* src/index.css (VERSÃO CORRIGIDA) */
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,21 +11,17 @@
 
 body {
   margin: 0;
-  /* As propriedades 'display: flex' e 'place-items: center' foram removidas */
   min-width: 320px;
   min-height: 100vh;
-  background-color: #fff; /* Adiciona um fundo branco padrão */
-  color: #212529; /* Adiciona uma cor de texto padrão */
+  background-color: #fff;
+  color: #212529;
 }
 
-/* Garante que o elemento raiz onde o React monta a aplicação
-  ocupe toda a largura disponível.
-*/
+
 #root {
   width: 100%;
 }
 
-/* Cole este código no final do seu arquivo styles.css */
 
 .etapa {
   border-left: 4px solid #0d6efd;
@@ -37,7 +31,7 @@ body {
 
 .map-container {
   position: relative;
-  padding-bottom: 56.25%; /* Proporção 16:9 */
+  padding-bottom: 56.25%; 
   height: 0;
   overflow: hidden;
 }
@@ -50,7 +44,6 @@ body {
   height: 100%;
 }
 
-/* Cole este código no final do seu arquivo styles.css */
 
 .contact-info {
   background-color: #f8f9fa;
@@ -81,8 +74,3 @@ body {
   font-size: 0.8em;
   color: #6c757d;
 }
-
-/* O resto dos estilos padrão do Vite (para h1, a, button) podem ser 
-  removidos, pois o Bootstrap já cuida do estilo desses elementos.
-  Manter o arquivo assim, mais limpo, é uma boa prática.
-*/

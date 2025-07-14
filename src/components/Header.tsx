@@ -1,4 +1,3 @@
-// src/components/Header.tsx
 import { Link, NavLink } from 'react-router-dom'; 
 import logo from '../assets/images/logo.png';
 

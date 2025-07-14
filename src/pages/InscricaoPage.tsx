@@ -1,5 +1,3 @@
-// src/pages/InscricoesPage.tsx
-
 import React, { useState } from 'react';
 
 function InscricoesPage() {
@@ -187,7 +185,7 @@ function InscricoesPage() {
         </div>
       </div>
 
-      {/* Modal de Termos */}
+      
       <div className="modal fade" id="termosModal" tabIndex={-1} aria-labelledby="termosModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg">
           <div className="modal-content">

@@ -1,4 +1,3 @@
-// src/pages/PercursoPage.tsx
 import  { useEffect, useRef } from 'react';
 import * as bootstrap from 'bootstrap';
 
@@ -15,7 +14,6 @@ function PercursoPage() {
     <div className="container" style={{ paddingTop: '100px' }}>
       <h1 className="text-center mb-4">Percurso do Triathlon</h1>
 
-      {/* Tabs de Navegação */}
       <ul className="nav nav-tabs mb-4" id="percursoTabs" role="tablist">
         <li className="nav-item" role="presentation">
             <button className="nav-link active" id="natacao-tab" data-bs-toggle="tab" data-bs-target="#natacao" type="button" role="tab">
@@ -34,7 +32,6 @@ function PercursoPage() {
         </li>
       </ul>
       
-      {/* Conteúdo das Tabs */}
       <div className="tab-content" id="percursoTabsContent">
         <div className="tab-pane fade show active" id="natacao" role="tabpanel">
             <div className="row">

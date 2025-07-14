@@ -1,4 +1,3 @@
-// src/components/EventCarousel.tsx
 import triathlon1 from '../assets/images/triathlon1.jpg';
 import triathlon2 from '../assets/images/triathlon2.jpg';
 import triathlon3 from '../assets/images/triathlon3.jpg';

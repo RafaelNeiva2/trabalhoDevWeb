@@ -1,10 +1,7 @@
-// src/components/InfoCards.tsx
-
 function InfoCards() {
   return (
     <div className="container my-5">
       <div className="row">
-        {/* Card Data do Evento */}
         <div className="col-md-4 mb-4">
           <div className="card h-100">
             <div className="card-body">
@@ -24,7 +21,6 @@ function InfoCards() {
             </div>
           </div>
         </div>
-        {/* Card Localização */}
         <div className="col-md-4 mb-4">
           <div className="card h-100">
             <div className="card-body">
@@ -36,7 +32,6 @@ function InfoCards() {
             </div>
           </div>
         </div>
-        {/* Card Premiação */}
         <div className="col-md-4 mb-4">
           <div className="card h-100">
             <div className="card-body">

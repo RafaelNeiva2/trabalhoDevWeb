@@ -1,4 +1,3 @@
-// src/components/AthletesList.tsx
 import { useState } from 'react';
 
 const allAthletes = [

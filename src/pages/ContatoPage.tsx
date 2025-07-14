@@ -1,4 +1,3 @@
-// src/pages/ContatoPage.tsx
 import React, { useState } from 'react';
 
 function ContatoPage() {
@@ -171,7 +170,6 @@ function ContatoPage() {
             </div>
         </div>
 
-        {/* Mapa */}
         <div className="row mt-4">
           <div className="col-12">
             <div className="card">
@@ -188,7 +186,6 @@ function ContatoPage() {
         </div>
       </div>
 
-      {/* Toast de sucesso*/}
       {formSubmitted && (
         <div className="position-fixed bottom-0 end-0 p-3" style={{ zIndex: 11 }}>
           <div className="toast show align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
